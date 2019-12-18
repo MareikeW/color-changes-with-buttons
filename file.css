@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* to center elements */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ /* mainly blue and red button */
+button {
+  background-color: #F0F8FF;
+  border-color: #F0F8FF;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin: 20px;
+  font-family: 'Lilita One', cursive;
+  font-size: 30px;
+}
+
+#blueCircle {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+#redCircle {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* some changes to background button */
+#backgroundBtn {
+  height: 75px;
+  width: 300px;
+  margin-top: 50px;
+}
